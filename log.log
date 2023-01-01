@@ -1,0 +1,40 @@
+INFO:root:Date request from pushcip at 2023-01-01 18:31:01+00:00
+INFO:root:Date request from pushcip at 2023-01-01 18:46:39+00:00
+INFO:root:Date request from pushcip at 2023-01-01 18:49:22+00:00
+INFO:root:Other request from pushcip at 2023-01-01 18:49:32+00:00. Text: salam
+INFO:root:Other request from pushcip at 2023-01-01 18:50:28+00:00. Text: ты меня понимаешь?
+INFO:root:Date request from pushcip at 2023-01-01 18:56:41+00:00
+INFO:root:Date request from pushcip at 2023-01-01 18:57:47+00:00
+INFO:root:Date request from Tardis3 at 2023-01-01 18:58:09+00:00
+INFO:root:Date request from Tardis3 at 2023-01-01 18:58:20+00:00
+INFO:root:Other request from Tardis3 at 2023-01-01 18:58:25+00:00. Text: лул
+INFO:root:Date request from pushcip at 2023-01-01 19:00:11+00:00
+INFO:root:Date request from Tardis3 at 2023-01-01 19:01:07+00:00
+INFO:root:Date request from pushcip at 2023-01-01 19:12:04+00:00
+INFO:root:Other request from pushcip at 2023-01-01 19:13:20+00:00. Text: я крутой
+INFO:root:Other request from Tardis3 at 2023-01-01 19:16:51+00:00. Text: жоско юзаю нового бота
+INFO:root:Other request from Tardis3 at 2023-01-01 19:19:33+00:00. Text: создатель лох
+INFO:root:Other request from Tardis3 at 2023-01-01 19:19:39+00:00. Text: все ты понимаешь
+INFO:root:Date request from Tardis3 at 2023-01-01 19:20:06+00:00
+INFO:root:Other request from pushcip at 2023-01-01 19:48:04+00:00. Text: лол
+INFO:root:Date request from pushcip at 2023-01-01 19:49:02+00:00
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Stud_bot\venv\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Stud_bot\venv\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "C:/Stud_bot/main.py", line 42, in start
+    updater.send_photo(chat_id=chat.id, photo=open('new_img.jpg', 'rb'))
+AttributeError: 'Updater' object has no attribute 'send_photo'
+INFO:root:Date request from pushcip at 2023-01-01 19:49:35+00:00
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Stud_bot\venv\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Stud_bot\venv\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "C:/Stud_bot/main.py", line 42, in start
+    updater.sendPhoto(chat_id=chat.id, photo=open('new_img.jpg', 'rb'))
+AttributeError: 'Updater' object has no attribute 'sendPhoto'
+INFO:root:Date request from pushcip at 2023-01-01 19:51:32+00:00
